@@ -1,0 +1,9 @@
+.pytest_cache
+.venv
+.idea
+database
+instance
+*.env
+docker-compose.yml
+*.db
+__pycache__

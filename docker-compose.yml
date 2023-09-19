@@ -1,0 +1,37 @@
+version: "2"
+services:
+  db:
+    image: postgres:13.3-alpine
+    env_file:
+      - db.env
+    environment:
+      PGDATA: /data/postgres
+    ports:
+      - "65432:5432"
+    volumes:
+      - ./database/data:/data/postgres
+      - ./database/tempdir:/home/db-data
+    networks:
+      - nc
+    restart: always
+
+  app:
+    image: bewise/app
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    depends_on:
+      - db
+    env_file:
+      - app.env
+    ports:
+      - "15000:5000"
+    networks:
+      - nc
+    restart: always
+
+networks:
+    nc:
+
+
+

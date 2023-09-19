@@ -1,0 +1,40 @@
+[
+  {
+    "id": 566,
+    "answer": "Borneo",
+    "question": "Worlds 3rd largest, some of its inhabitants are \"wild men\"",
+    "value": 300,
+    "airdate": "1985-01-04T20:00:00.000Z",
+    "created_at": "2022-12-30T18:37:50.624Z",
+    "updated_at": "2022-12-30T18:37:50.624Z",
+    "category_id": 117,
+    "game_id": 5018,
+    "invalid_count": null,
+    "category": {
+      "id": 117,
+      "title": "islands",
+      "created_at": "2022-12-30T18:37:50.565Z",
+      "updated_at": "2022-12-30T18:37:50.565Z",
+      "clues_count": 136
+    }
+  },
+  {
+    "id": 567,
+    "answer": "Barry Manilow",
+    "question": "Singer of the following:\"You wouldn't believe where I've been /The city and towns I been in /From Boston to Denver /And every town in between /The people they all look the same...\"",
+    "value": null,
+    "airdate": "1985-01-04T20:00:00.000Z",
+    "created_at": "2022-12-30T18:37:50.627Z",
+    "updated_at": "2022-12-30T18:37:50.627Z",
+    "category_id": 118,
+    "game_id": 5018,
+    "invalid_count": null,
+    "category": {
+      "id": 118,
+      "title": "miracles",
+      "created_at": "2022-12-30T18:37:50.568Z",
+      "updated_at": "2022-12-30T18:37:50.568Z",
+      "clues_count": 5
+    }
+  }
+]
