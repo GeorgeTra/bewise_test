@@ -21,6 +21,7 @@ PGPASS - пароль postgres
  
 Пример запроса к POST API сервиса:
 
-POST http://127.0.0.1:15000/question
-Тело запроса: {"questions_num": 1}
+    POST http://127.0.0.1:15000/question
+    
+Тело запроса: ```{"questions_num": 1}```
 
